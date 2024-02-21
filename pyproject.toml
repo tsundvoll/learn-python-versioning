@@ -4,7 +4,9 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "learn-python-versioning"
-authors = [{ name = "Thomas Sundvoll", email = "35451859+tsundvoll@users.noreply.github.com" }]
+authors = [
+    { name = "Thomas Sundvoll", email = "35451859+tsundvoll@users.noreply.github.com" },
+]
 description = "Python project to test out package versioning in releases"
 readme = "README.md"
 requires-python = ">=3.10"
