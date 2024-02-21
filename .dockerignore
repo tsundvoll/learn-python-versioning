@@ -1,5 +1,8 @@
 *
-!src/
+!.git/
+!src/learn_python_versioning/
+!main.py
 !pyproject.toml
 !LICENSE
 !README.md
+!requirements.txt
