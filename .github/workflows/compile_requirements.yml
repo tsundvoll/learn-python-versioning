@@ -5,13 +5,12 @@ on:
     branches:
       - main
 
-permissions:
-  contents: write
-
 jobs:
   compile-requirements:
     runs-on: ubuntu-latest
-
+    permissions:
+      contents: write
+      pull-requests: write
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
